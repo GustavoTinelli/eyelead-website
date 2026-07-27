@@ -695,6 +695,7 @@ git commit -m "feat: add nav bar and shared footer to the privacy policy page"
   </section>
 
   <section class="pillars-section">
+    <h2 class="label">O QUE FAZEMOS</h2>
     <div class="pillars">
       <a href="apps.html" class="pillar-card">
         <h3>Apps de IA</h3>
