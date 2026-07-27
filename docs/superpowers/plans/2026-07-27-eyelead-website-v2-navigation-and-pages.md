@@ -438,7 +438,7 @@ git commit -m "feat: add mobile nav hamburger toggle"
   <nav class="navbar">
     <div class="navbar-inner">
       <a href="index.html" class="navbar-brand"><img src="assets/eyelead-logo-nav.png" alt="Eyelead" class="navbar-logo"></a>
-      <button class="navbar-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+      <button type="button" class="navbar-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="navLinks">
         <span></span><span></span><span></span>
       </button>
       <div class="navbar-links" id="navLinks">
@@ -563,7 +563,7 @@ git commit -m "feat: restructure home page with nav, pillars, and teaser section
   <nav class="navbar">
     <div class="navbar-inner">
       <a href="index.html" class="navbar-brand"><img src="assets/eyelead-logo-nav.png" alt="Eyelead" class="navbar-logo"></a>
-      <button class="navbar-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+      <button type="button" class="navbar-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="navLinks">
         <span></span><span></span><span></span>
       </button>
       <div class="navbar-links" id="navLinks">
@@ -667,7 +667,7 @@ git commit -m "feat: add nav bar and shared footer to the privacy policy page"
   <nav class="navbar">
     <div class="navbar-inner">
       <a href="index.html" class="navbar-brand"><img src="assets/eyelead-logo-nav.png" alt="Eyelead" class="navbar-logo"></a>
-      <button class="navbar-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+      <button type="button" class="navbar-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="navLinks">
         <span></span><span></span><span></span>
       </button>
       <div class="navbar-links" id="navLinks">
@@ -785,7 +785,7 @@ git commit -m "feat: add the Sobre a Eyelead page"
   <nav class="navbar">
     <div class="navbar-inner">
       <a href="index.html" class="navbar-brand"><img src="assets/eyelead-logo-nav.png" alt="Eyelead" class="navbar-logo"></a>
-      <button class="navbar-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+      <button type="button" class="navbar-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="navLinks">
         <span></span><span></span><span></span>
       </button>
       <div class="navbar-links" id="navLinks">
@@ -878,7 +878,7 @@ git commit -m "feat: add the Nossos Apps page"
   <nav class="navbar">
     <div class="navbar-inner">
       <a href="index.html" class="navbar-brand"><img src="assets/eyelead-logo-nav.png" alt="Eyelead" class="navbar-logo"></a>
-      <button class="navbar-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+      <button type="button" class="navbar-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="navLinks">
         <span></span><span></span><span></span>
       </button>
       <div class="navbar-links" id="navLinks">
