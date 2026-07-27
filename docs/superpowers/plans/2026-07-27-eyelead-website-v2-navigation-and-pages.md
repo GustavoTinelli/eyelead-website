@@ -556,6 +556,12 @@ git commit -m "feat: restructure home page with nav, pillars, and teaser section
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Política de Privacidade — Eyelead</title>
+  <meta name="description" content="Política de privacidade do site institucional da Eyelead — não coletamos dados pessoais.">
+  <meta property="og:title" content="Política de Privacidade — Eyelead">
+  <meta property="og:description" content="Política de privacidade do site institucional da Eyelead — não coletamos dados pessoais.">
+  <meta property="og:image" content="https://eyelead.com.br/assets/eyelead-logo.png">
+  <meta property="og:url" content="https://eyelead.com.br/privacidade.html">
+  <meta property="og:type" content="website">
   <link rel="icon" type="image/png" href="assets/favicon.png">
   <link rel="stylesheet" href="styles.css">
 </head>
