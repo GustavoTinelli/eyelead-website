@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Eyelead — Looking for the future</title>
-  <meta name="description" content="A Eyelead cria aplicativos incríveis com inteligência artificial. Conheça o MyCofree, nosso primeiro app.">
+  <meta name="description" content="A Eyelead cria aplicativos incríveis com inteligência artificial e empodera empreendedores através de apps, podcast, treinamentos e automação.">
   <meta property="og:title" content="Eyelead — Looking for the future">
   <meta property="og:description" content="A Eyelead cria aplicativos incríveis com inteligência artificial.">
   <meta property="og:image" content="https://eyelead.com.br/assets/eyelead-logo.png">
@@ -14,21 +14,51 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="navbar-brand"><img src="assets/eyelead-logo-nav.png" alt="Eyelead" class="navbar-logo"></a>
+      <button class="navbar-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="navbar-links" id="navLinks">
+        <a href="sobre.html">Sobre a Eyelead</a>
+        <a href="apps.html">Nossos Apps</a>
+        <a href="contato.html">Contato</a>
+        <a href="apps.html" class="btn btn-primary btn-small">Ver Apps</a>
+      </div>
+    </div>
+  </nav>
+
   <header class="hero">
     <h1><img src="assets/eyelead-logo.png" alt="Eyelead — Looking for the future" class="hero-logo"></h1>
-    <a href="#apps" class="btn btn-primary">Ver nossos apps</a>
+    <a href="apps.html" class="btn btn-primary">Ver nossos apps</a>
   </header>
 
-  <section class="about">
-    <h2 class="label">SOBRE A EYELEAD</h2>
-    <p>
-      A Eyelead cria aplicativos incríveis com inteligência artificial,
-      pensados para simplificar o dia a dia das pessoas. Nosso primeiro
-      app, o MyCofree, já está disponível — e é só o começo.
-    </p>
+  <section class="pillars-section">
+    <h2 class="label">O QUE FAZEMOS</h2>
+    <div class="pillars">
+      <a href="apps.html" class="pillar-card">
+        <h3>Apps de IA</h3>
+        <p>Aplicativos inteligentes para o dia a dia.</p>
+      </a>
+      <a href="https://www.youtube.com/@EyePod_Cast" target="_blank" rel="noopener noreferrer" class="pillar-card">
+        <h3>Podcast</h3>
+        <p>EyePod: conversas sobre empreendedorismo, tecnologia e o futuro.</p>
+      </a>
+      <div class="pillar-card pillar-card-soon">
+        <h3>Treinamentos</h3>
+        <p>Capacitação prática para empreendedores.</p>
+        <span class="badge">Em breve</span>
+      </div>
+      <div class="pillar-card pillar-card-soon">
+        <h3>Automação</h3>
+        <p>Soluções para simplificar processos e escalar negócios.</p>
+        <span class="badge">Em breve</span>
+      </div>
+    </div>
   </section>
 
-  <section class="apps" id="apps">
+  <section class="apps">
     <h2 class="label">NOSSOS APPS</h2>
     <div class="app-grid">
       <div class="app-card">
@@ -39,20 +69,30 @@
         </div>
         <a href="https://gustavotinelli.github.io/mycofree-web/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-small">Acessar</a>
       </div>
-      <div class="app-card app-card-placeholder">
-        <p>Em breve, novos apps</p>
-      </div>
+    </div>
+    <div class="teaser-link">
+      <a href="apps.html">Ver todos os apps →</a>
     </div>
   </section>
 
-  <section class="eyepod">
-    <a href="https://www.youtube.com/@EyePod_Cast" target="_blank" rel="noopener noreferrer" class="eyepod-pill">
-      🎙 Ouça também o <strong>EyePod</strong>, nosso podcast →
-    </a>
+  <section class="about">
+    <h2 class="label">SOBRE A EYELEAD</h2>
+    <p>
+      Somos uma empresa voltada para o futuro — criamos apps, formamos
+      empreendedores e simplificamos negócios através da tecnologia.
+    </p>
+    <div class="teaser-link">
+      <a href="sobre.html">Conheça nossa história →</a>
+    </div>
   </section>
 
   <footer class="site-footer">
-    <p>&copy; <span id="year"></span> Eyelead · <a href="privacidade.html">Política de Privacidade</a> · <a href="mailto:contato@eyelead.com.br">Contato</a></p>
+    <div class="social-links">
+      <a href="https://www.youtube.com/@EyePod_Cast" target="_blank" rel="noopener noreferrer">YouTube</a>
+      <a href="https://open.spotify.com/show/6eXKSgk2ZopXclbmYRGQb7" target="_blank" rel="noopener noreferrer">Spotify</a>
+      <a href="https://www.instagram.com/eyeleadbr/" target="_blank" rel="noopener noreferrer">Instagram</a>
+    </div>
+    <p>&copy; <span id="year"></span> Eyelead · <a href="privacidade.html">Política de Privacidade</a> · <a href="contato.html">Contato</a></p>
   </footer>
 
   <script src="script.js"></script>
