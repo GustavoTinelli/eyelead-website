@@ -309,6 +309,12 @@ a {
   color: var(--accent);
 }
 
+.navbar-links a.btn-primary,
+.navbar-links a.btn-primary:hover {
+  color: var(--bg);
+}
+
+/* Nav collapses earlier than the 480px app-card breakpoint above — a logo plus four links plus a CTA button overflows well before phone width */
 @media (max-width: 768px) {
   .navbar-toggle {
     display: flex;
@@ -380,6 +386,7 @@ a {
 
 .pillar-card h3 {
   font-size: 0.9rem;
+  font-weight: 600;
   color: var(--accent);
   margin-bottom: 6px;
 }
