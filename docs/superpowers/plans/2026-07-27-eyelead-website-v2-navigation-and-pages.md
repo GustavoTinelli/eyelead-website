@@ -804,6 +804,7 @@ git commit -m "feat: add the Sobre a Eyelead page"
   </div>
 
   <section class="apps">
+    <h2 class="label">NOSSOS APPS</h2>
     <div class="app-grid">
       <div class="app-card">
         <img src="assets/mycofree-icon.png" alt="MyCofree" class="app-icon">
